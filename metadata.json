@@ -1,0 +1,6 @@
+{
+  "name": "Mitsubishi Motors Sales Companion",
+  "description": "An engineered enterprise Sales and Training Super App for Mitsubishi Motors consultants, featuring lead tracking, DMS integration, JPJ registration milestones, and advanced interactive training modules.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

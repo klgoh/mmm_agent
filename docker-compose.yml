@@ -1,0 +1,15 @@
+services:
+  mmm-ai-mock:
+    container_name: mmm-ai-mock
+    build: .
+    restart: unless-stopped
+    ports:
+      - "3002:3002"
+    env_file:
+      - .env.local
+    volumes:
+      - ./src:/app/src
+      - ./index.html:/app/index.html
+      - ./vite.config.ts:/app/vite.config.ts
+    environment:
+      - HOST=0.0.0.0
